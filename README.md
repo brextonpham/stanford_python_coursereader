@@ -33,3 +33,53 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 
 # Programmers are more important than programs.
+
+"Hello World" in Java
+public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.printlin("Hello World!");
+  }
+}
+
+"Hello World" in C++
+#include <iostream>
+using namespace std;
+int main() {
+  cout << "Hello World!" << endl;
+}
+
+"Hello World" in Python
+print("Hello world!")
+
+#Python Basics
+1. Interactive Interpreter
+  - Open up terminal and type in "python3"
+  - Perks
+    - Immediate gratification!
+    - Sandboxed environment to experiment with Python
+    - Shortens code-test-debug cycle to seconds
+2. Comments
+  - Single line comments start with a "#"
+  - Multiline strings can be written using three "s, and are often used as comments
+3. Variables and Types
+  - Variables
+    - x = 2
+    - x * 7 --> 14
+    - x = "Hello, I'm "
+    - x + "Python!" --> "Hello, I'm Python"
+  - Types
+    - int x = 0; (Java or C++)
+    - x = 0 (Python)
+    - Variables in python are dynamically-typed: declared without an explicit type
+    - However, objects have a type, so Python knows the type of a variable, even if you don't
+    - type(1) --> <class 'int'> <-- This is the same object as the literal type int
+    - type("Hello") --> <class 'str'>
+    - type(None) --> <class 'NoneType'>
+    - type(int) --> <class 'type'>
+    - type(type(int)) --> <class 'type'>
+4. Numbers and Booleans
+5. Strings and Lists
+6. Console I/O
+7. Control Flow
+8. Loops
+9. Functions
