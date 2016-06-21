@@ -78,7 +78,57 @@ print("Hello world!")
     - type(int) --> <class 'type'>
     - type(type(int)) --> <class 'type'>
 4. Numbers and Booleans
+  - Numbers
+    - 3 --> 3 (int)
+    - 3.0 --> 3.0 (float)
+    - 1 + 1 --> 2
+    - 8 - 1 --> 7
+    - 10 * 2 --> 20
+    - 9 / 3 --> 3.0
+    - 5 / 2 --> 2.5
+    - 7 / 1.4 --> 5.0
+    - 7 // 3 --> 2 (integer division)
+    - 7 % 3 --> 1 (integer modulus) 
+    - 2 ** 4 --> 16 (exponentiation)
+  - Booleans
+    - bool is a subtype of int, where True == 1 and False == 0   
+    - True --> True
+    - False --> False
+    - not True --> False
+    - True and False --> False
+    - True or False --> True (short-circuits)
+    - 1 == 1 --> True
+    - 2 * 3 == 5 --> False
+    - 1 != 1 --> False
+    - 2 * 3 != 5 --> True
+    - 1 < 10 --> True
+    - 2 >= 0 --> True
+    - 1 < 2 < 3 --> True (1 < 2 and 2 < 3)
+    - 1 < 2 >= 3 --> False (1 < 2 and 2 >= 3)
 5. Strings and Lists
+  - Strings
+    - No char in Python!
+    - Both ' and " create string literals
+    - greeting = 'Hello' --> unicode by default
+    - group = "world"
+    - greeting + ' ' + group + '!' --> 'Hello world!'
+    - Indexing
+      - s = 'Arthur'
+      - s[0] = 'A'
+      - s[1] == 'r'
+      - s[4] == 'u'
+      - s[6] --> Bad!
+    - Negative Indexing
+      - s[-1] == 'r'
+      - s[-2] == 'u'
+      - s[-4] == 't'
+      - s[-6] == 'A'
+    - Slicing
+      - s[0:2] == 'Ar'
+      - s[3:6] == 'hur'
+      - s[1:4] == 'rth'
+      - s[:2] == 'Ar' <-- implicitly starts at 0
+      - s[3:] == 'hur' <-- implicitly ends at the end
 6. Console I/O
 7. Control Flow
 8. Loops
