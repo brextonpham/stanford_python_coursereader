@@ -1,4 +1,4 @@
-# stanford_python_coursereader
+# Stanford Python Course Reader
 
 Lecture 1: Welcome to Python
 
