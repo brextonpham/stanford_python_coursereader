@@ -8,7 +8,7 @@ Goals:
   3. Gain experience with practical Python tasks
   4. Understand when to choose Python (or not)
   
->>import this
+\>>import this
 
 The Zen of Python, by Tim Peters
 Beautiful is better than ugly.
